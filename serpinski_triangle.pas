@@ -1,6 +1,6 @@
-﻿{ Программа "Треугольник Серпинского 3"
+﻿{ Программа "Треугольник Серпинского"
   Автор: Александр Королёв (avkw@bk.ru) }
-program serpinski_triangle_anim3;
+program serpinski_triangle;
 
 uses GraphABC;
 
@@ -105,7 +105,7 @@ end;
 
 { Основная программа }
 begin
-  SetWindowTitle('Треугольник Серпинского 3 (управление: стрелки)');
+  SetWindowTitle('Треугольник Серпинского (управление: стрелки)');
   SetWindowSize(w, h);
   Window.IsFixedSize := true;
   Window.CenterOnScreen;
